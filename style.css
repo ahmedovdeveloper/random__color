@@ -1,0 +1,28 @@
+body {
+    background-color: #f4522a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+button {
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgb(104, 74, 43);
+}
+
+button:hover {
+    transform:scale(1.110);
+    transition: all 0.75s;
+}
